@@ -3,6 +3,8 @@
 A robust, production-ready distributed task queue built with Python, FastAPI, Redis, and PostgreSQL. Avenge-R is designed to handle background processing, scheduled tasks, and provides a sleek live dashboard for monitoring task status.
 #backenddev
 
+Note: Here .Env file has been replaced with .env.exmple for security purpose.
+
 ## 🚀 Features
 
 * **Distributed Workers:** Horizontally scalable worker processes for asynchronous task execution.
