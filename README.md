@@ -4,9 +4,6 @@ A robust, production-ready distributed task queue built with Python, FastAPI, Re
 #backenddev
 
 Note: Here .Env file has been replaced with .env.exmple for security purpose.
-#v0.3.0-worker-system
-#release/dev
-#arch/microservices
 
 ## 🚀 Features
 
@@ -62,3 +59,6 @@ Note: Here .Env file has been replaced with .env.exmple for security purpose.
 * `postgres`: Stores permanent records of task outcomes and metrics.
 * `redis`: Acts as the blazing-fast, in-memory broker for the `ready`, `scheduled`, and `dlq` queues.
 * `proxy`: Nginx reverse proxy that handles SSL termination.
+#v0.3.0-worker-system
+#release/dev
+#arch/microservices
