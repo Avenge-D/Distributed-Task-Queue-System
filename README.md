@@ -4,6 +4,9 @@ A robust, production-ready distributed task queue built with Python, FastAPI, Re
 #backenddev
 
 Note: Here .Env file has been replaced with .env.exmple for security purpose.
+#v0.3.0-worker-system
+#release/dev
+#arch/microservices
 
 ## 🚀 Features
 
