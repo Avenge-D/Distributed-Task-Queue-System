@@ -63,3 +63,5 @@ Note: Here .Env file has been replaced with .env.exmple for security purpose.
 #release/dev
 #arch/microservices
 #backendproject
+#beginningofvibecoding
+#vibecoder
