@@ -65,3 +65,4 @@ Note: Here .Env file has been replaced with .env.exmple for security purpose.
 #backendproject
 #beginningofvibecoding
 #vibecoder
+#project2
