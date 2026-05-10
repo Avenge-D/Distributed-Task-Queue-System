@@ -66,3 +66,4 @@ Note: Here .Env file has been replaced with .env.exmple for security purpose.
 #beginningofvibecoding
 #vibecoder
 #project2
+#github
