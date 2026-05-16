@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Distributed Task Queue Dashboard</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+<body>
+      <div class="container">
+                <header>
+                              <h1>Distributed Task Queue Dashboard</h1>
+                            <div id="status-badge" class="badge">Connecting...</div>div>
+                </header>
+              
+              <div class="stats-grid">
+                          <div class="stat-card">
+                                          <h3>Total Tasks</h3>
+                                          <p id="total-tasks">0</p>p>
+                          </div>div>
+                          <div class="stat-card">
+                                          <h3>Pending</h3>
+                                          <p id="pending-tasks">0</p>p>
+                          </div>div>
+                          <div class="stat-card">
+                                          <h3>Processing</h3>
+                                          <p id="processing-tasks">0</p>p>
+                          </div>div>
+                          <div class="stat-card">
+                                          <h3>Completed</h3>
+                                          <p id="completed-tasks">0</p>p>
+                          </div>div>
+                          <div class="stat-card">
+                                          <h3>Failed</h3>
+                                          <p id="failed-tasks">0</p>p>
+                          </div>div>
+              </div>div>
+      
+              <div class="charts-container">
+                          <canvas id="taskChart"></canvas>canvas>
+              </div>div>
+      
+              <div class="task-table-container">
+                          <h2>Recent Tasks</h2>
+                          <table id="task-table">
+                                          <thead>
+                                                                <tr>
+                                                                                          <th>ID</th>
+                                                                  <th>Type</th>
+                                                                  <th>Status</th>
+                                                                  <th>Worker</th>
+                                                                  <th>Created At</th>
+                                                                </tr>
+                                          </thead>
+                                          <tbody id="task-body">
+                                              <!-- Tasks will be injected here -->
+                                          </tbody>tbody>
+                          </table>table>
+              </div>div>
+      </div>div>
+    <script src="app.js"></script>
+</body>
+</html>html>
+</th></th>
+                                                                </tr>
+                                          </thead></h3></h1>
+                </header>
+</body></title>
+  </head>
